@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast Channel</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@100;200;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <img class="logo-container" src="./images/logo.svg" alt="logo">
+        <input type="checkbox" id="chk-nav-bar">
+        <ul class="menu-options">
+            <li class="menu-options-links"><a href="#episodios">EPISODIOS</a></li>
+            <li class="menu-options-links"><a href="#nosotros">NOSOTROS</a></li>
+            <li class="menu-options-links"><a href="#entrevistas">ENTREVISTAS</a></li>
+            <li class="menu-options-links"><a href="#topicos">TÓPICOS</a></li>
+        </ul>
+        <label id="burger-close" for="chk-nav-bar" class="burger-close">&#x2716;</label>
+        <label id="burger-open" for="chk-nav-bar"><span class="hamburger">☰</span> </label>
+    </nav>
+
+    <main>
+        <section class="bienvenida-ctn">
+            <h1 class="title-principal">Hello <span class="world">world</span> <span class="pale-blue"> pale blue
+                    dot</span> <span class="punto">.</span></h1>
+            <p class="content-principal"><span class="add-content">Un podcast que explora el mundo de la
+                    programación</span>. Nuevos episodios, todos los jueves cada 15 días.</p>
+            <div class="ctn-button-principal"><a class="button-principal" href="#">CONOCÉ MÁS</a></div>
+        </section>
+
+
+        <section id="episodios" class="episodios-ctn">
+
+            <svg class="episode-backgound-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
+                preserveAspectRatio="none">
+                <polygon fill="white" points="0,0 100,0 0,70" /></svg>
+            <svg class="episode-backgound-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
+                preserveAspectRatio="none">
+                <polygon fill="white" points="100,100 100,0 0,100" /></svg>
+
+            <div class="ctn-title-episodios">
+                <h2 class="title-episodios">Episodios</h2>
+            </div>
+
+            <div class="spotify">
+                <iframe src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/episode/4TVf9ldzZpa4LKTQecAqCy"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ"></iframe>
+            </div>
+
+        </section>
+
+        <section id="nosotros" class="telefono-ctn">
+
+            <div class="ctn-phone-img">
+                <img class="phone" src="./images/phone.png" alt="phone"></div>
+            <div class="ctn-h2-p">
+                <h2 class="title-phone">De dónde venimos</h2>
+                <div class="ctn-content-phone">
+                    <p class="content-phone1 textphone">Our posturings, our imagined self-importance, the delusion that
+                        we
+                        have some privileged position in the Universe, are challenged by this point of pale light.</p>
+                    <p class="content-phone2 textphone">
+                        Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this
+                        vastness, there is no hint that help will come from elsewhere to save us from ourselves. </p>
+                </div>
+            </div>
+
+
+        </section>
+
+
+        <section id="entrevistas" class="invitados-ctn">
+            <div class="ctn-title-inv">
+                <h2 class="invitados-title">Invitadas/os estelares</h2>
+            </div>
+            <img src="./images/grace-hopper.png" alt="GraceHopper">
+            <img src="./images/Katie-Bouman.png" alt="KatieBouman">
+            <img src="./images/Margaret_Hamilton.png" alt="MargaretHamilton">
+            <img src="./images/An1103.png" alt="Computer1950">
+            <img src="./images/Computer.png" alt="Operators">
+            <img src="./images/susan-kare.png" alt="SusanKare">
+
+        </section>
+
+
+        <section id="topicos" class="temas-ctn">
+            <div class="ctn-title-temas">
+                <h2>Algunos de nuestros temas</h2>
+            </div>
+            <div class="ctn-temas">
+                <div class="temas-items">
+                <img src="./images/icon1.svg" alt="trabajoremoto">
+                <p>Trabajo remoto</p>
+            </div>
+            <div class="temas-items">
+                <img src="./images/icon2.svg" alt="repensandolaprogramacion">
+                <p>Repensando la programacion</p>
+            </div>
+            <div class="temas-items">
+                <img src="./images/icon3.svg" alt="basesdecodigo">
+                <p>Bases de código</p>
+            </div>
+            <div class="temas-items">
+                <img src="./images/icon4.svg" alt="seguridadinformatica">
+                <p>Seguridad informática</p>
+            </div></div>
+            
+
+        </section>
+
+
+        <section class="novedades-ctn">
+            <svg class="novedades-backgound-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
+                preserveAspectRatio="none">
+                <polygon fill="white" points="0,0 100,0 0,70" /></svg>
+            <div class="ctn-nov-title">
+                <h2 class="novedades-title">¿Querés las últimas novedades?</h2>
+            </div>
+            <div class="ctn-nov-button"><a class="button-novedades" href="#">ESCUCHÁ LOS EPISODIOS</a></div>
+
+        </section>
+
+
+        <footer>
+            <div class="footer">
+
+                <div class="copyright">
+                    <p>© 2019— Hello blue pale dot</p>
+                </div>
+
+
+                <div class="redes-sociales">
+                    <a href="https://open.spotify.com" target="_blank"><i class="fab fa-spotify"></i></a>
+                    <a href="https://www.instagram.com/?hl=es-la" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/?lang=es" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.spotify.com/ar/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.spotify.com/ar/" target="_blank"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" data-auto-replace-svg="nest"></script>
+</body>
