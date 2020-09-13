@@ -643,6 +643,7 @@
     .temas-ctn{
         display: flex;
         flex-direction: column;
+        width: 100%;
         
 
         .ctn-title-temas{
@@ -656,6 +657,7 @@
             flex-direction: row;
             justify-content: space-around;
             overflow: hidden;
+            width: 100%;
             
             img{
                 width: 104px;
